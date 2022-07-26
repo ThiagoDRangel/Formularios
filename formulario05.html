@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1> Formulário 05</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="xsexoM">
+            <label for="xsexoM">Masculino</label><br>
+
+            <input type="radio" name="sexo" id="xsexoF">
+            <label for="xsexoF">Feminino</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>E-esports favoritos</legend>
+            <input type="checkbox" name="lol" id="xlol">
+            <label for="xlol">League of Legends</label><br>
+
+            <input type="checkbox" name="dota" id="xdota">
+            <label for="xdota">Dota 2</label><br>
+
+            <input type="checkbox" name="axie" id="xaxie">
+            <label for="xaxie">Axie Infinity</label><br>
+
+            <input type="checkbox" name="ilv" id="xilv">
+            <label for="xilv">Illuvium</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
